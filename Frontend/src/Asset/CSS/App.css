@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 250px; /* Adjust this value based on your sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .sidebar {
+    background-color: #1e1e1e;
+  }
+  
